@@ -1,0 +1,368 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #fff;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #fff;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    height: 36px;
+    width: 85px;
+    top: 25px;
+    left: 390px;
+}
+.logo__img {
+    height: 100%;
+    width: 104%;
+    object-fit: contain;
+}
+
+.menu {
+    position: absolute;
+    top: 36px;
+    left: 556px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 51px;
+}
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contacts {
+    font-style: normal;
+    position: absolute;
+    top: 23.64px;
+    left: 1342px;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 1px;
+}
+
+.contacts__link {
+    height: 18px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.welcome-container {
+    font-style: normal;
+    width: 511px;
+    text-align: left;
+    margin-left: 391px;
+    margin-top: 74px;
+    margin-bottom: 246px;
+}
+
+.welcome__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.36;
+    margin-bottom: 26px;
+}
+
+.welcome__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.welcome__button {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.offers-container {
+    margin-left: 392px;
+    margin-bottom: 127px;
+}
+
+.offers__container-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+    margin-right: 12px;
+    display: inline;
+    height: 28px;
+    width: 21px; 
+}
+
+.offers__item {
+    display: inline-block;
+    min-height: 449px;
+    width: 362px;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 27px;
+}
+
+.offers__header-img {
+    display: inline-block;
+    min-height: 144px;
+    width: 362px;
+    padding-bottom: 33px;
+}
+
+.offers__content {
+    font-style: normal;
+}
+
+.offers__content-title {
+    padding-left: 22px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 21px;
+}
+
+.offers__features {
+    padding-left: 28px;
+    display: inline-block;
+    width: 271px;
+    padding-bottom: 25.5px;
+}
+
+.offers__features-icon {
+    display: inline-block;
+    width: 26px;
+    padding-right: 10px;
+}
+
+.offers__features-text {
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
+}
+
+.offers__text {
+    padding-left: 22px;
+    font-size: 14px;
+    color: #303030;
+    padding-bottom: 24.5;
+}
+
+.offers__button {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.news-container {
+    margin-left: 390px;
+    margin-bottom: 221px;
+}
+
+.news__title-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 51px;
+}
+
+.news__list {
+    margin-bottom: 53px;
+}
+
+.news__item {
+    width: 582px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-right: 25px;
+}
+
+.news__img {
+    display: block;
+    width: 100%;
+    height: 394px;
+    object-fit: cover;
+}
+
+.news__content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 12.5px 30px;
+    min-height: 80px;
+}
+
+.news__text {
+    font-size: 14px;
+    margin-bottom: 12.5px;
+}
+
+.news__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3.5px;
+}
+
+.paginator {
+    position: absolute;
+}
+
+.paginator__dasplay {
+    margin-left: 771px;
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.paginator__list {
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__item--active .paginator__link {
+    background: #fff;
+}
+
+.paginator__link {
+    display: block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.about-container:before {
+    content: "";
+    display: block;
+    width: 490px;
+    height: 505px;
+    background: url("./img/gates.jpg") center center / no-repeat;
+}
+
+.about-container {
+    margin-left: 743px;
+    margin-bottom: 53px;
+}
+
+.about__content {
+    width: 785px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.about__img {
+    display: block;
+    width: 100%;
+    height: 455px;
+    object-fit: cover;
+}
+
+.about__title {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 70px 601px 37px 81px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+
+.about__text {
+    position: absolute;
+    padding: 156px 202px 164px 81px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #060606;
+}
+
+.about__buttom {
+    position: absolute;
+    padding: 334px 556px 66px 81px;
+    background: #F5170E;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    position: relative;
+    margin-left: 389px;
+    margin-bottom: 57.36px;
+}
+
+.contacts__info {
+    font-size: 11px;
+    font-weight: normal;
+    color: #9a9a9a;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    font-weight: normal;
+    color: #fff;
+}
