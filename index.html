@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper main-page-wrapper">
         <div class="wrapper__content">
             <header class="header">
                 <div class="container header__container">
@@ -53,12 +53,12 @@
                             </div>
                             <div class="offers__content">
                                 <h3 class="offers__content-title">Таиланд</h3>
-                                <div class="desc offers__features">
-                                    <div class="offers__features">
+                                <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/calendar.png" alt="calendar" class="offers__features-icon">
                                         <div class="offers__features-text">7-12 ночей</div>
                                     </div>
-                                    <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/meal.png" alt="meal" class="offers__features-icon">
                                         <div class="offers__features-text">Завтраки</div>
                                     </div>
@@ -67,7 +67,7 @@
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button button button--light">Смотреть</a>
+                                <a href="#" class="offers__button offers__button--active button_type_secondary">Смотреть</a>
                             </div>
                         </li>
                         <li class="offers__item">
@@ -76,21 +76,21 @@
                             </div>
                             <div class="offers__content">
                                 <h3 class="offers__content-title">Бали</h3>
-                                <div class="desc offers__features">
-                                    <div class="offers__features">
+                                <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/calendar.png" alt="calendar" class="offers__features-icon">
                                         <div class="offers__features-text">7-12 ночей</div>
                                     </div>
-                                    <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/meal.png" alt="meal" class="offers__features-icon">
                                         <div class="offers__features-text">Завтраки</div>
-                                    </div>   
+                                    </div>
                                 </div>
                                 <p class="offers__text">
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button button button--light">Смотреть</a>
+                                <a href="#" class="offers__button offers__button--active button_type_secondary">Смотреть</a>
                             </div>
                         </li>
                         <li class="offers__item">
@@ -99,21 +99,21 @@
                             </div>
                             <div class="offers__content">
                                 <h3 class="offers__content-title">Индонезия</h3>
-                                <div class="desc offers__features">
-                                    <div class="offers__features">
+                                <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/calendar.png" alt="calendar" class="offers__features-icon">
                                         <div class="offers__features-text">7-12 ночей</div>
                                     </div>
-                                    <div class="offers__features">
+                                    <div class="offers__features-item">
                                         <img src="./img/meal.png" alt="meal" class="offers__features-icon">
                                         <div class="offers__features-text">Завтраки</div>
-                                    </div>  
+                                    </div>
                                 </div>
                                 <p class="offers__text">
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button button button--light">Смотреть</a>
+                                <a href="#" class="offers__button offers__button--active button_type_secondary">Смотреть</a>
                             </div>
 
                         </li>
@@ -144,8 +144,8 @@
                         <div class="paginator__display">Страница 1 из 7</div>
                         <a href="#" class="paginator__prev"></a>
                         <ul class="paginator__list">
-                            <li class="paginator__item paginator__item--active"><a href="#"
-                                    class="paginator__link">1</a></li>
+                            <li class="paginator__item paginator__item--active">
+                                <a href="#"class="paginator__link">1</a></li>
                             <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
                             <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
                             <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
@@ -171,53 +171,54 @@
                 </section>
             </main>
         </div>
-    </div>
-    <footer class="footer">
-        <div class="container footer__container">
-            <a href="#" class="logo">
-                <img src="./img/logo.png" alt="logo company" class="logo__img">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Главная</a>
+        <footer class="footer">
+            <div class="container footer__container">
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="logo company" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="networks">
+                    <li class="networks__item">
+                        <a href="" class="networks__link">
+                            <img src="./img/t.png" alt="telegram" class="networks__link-icon">
+                        </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Услуги</a>
+                    <li class="networks__item">
+                        <a href="" class="networks__link">
+                            <img src="./img/vk.png" alt="vk" class="networks__link-icon">
+                        </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Отзывы</a>
+                    <li class="networks__item">
+                        <a href="" class="networks__link">
+                            <img src="./img/f.png" alt="facebook" class="networks__link-icon">
+                        </a>
+                    </li>
+                    <li class="networks__item">
+                        <a href="" class="networks__link">
+                            <img src="./img/in.png" alt="instagram" class="networks__link-icon">
+                        </a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="networks">
-                <li class="networks__item">
-                    <a href="" class="networks__link">
-                        <img src="./img/t.png" alt="telegram" class="networks__link-icon">
-                    </a>
-                </li>
-                <li class="networks__item">
-                    <a href="" class="networks__link">
-                        <img src="./img/vk.png" alt="vk" class="networks__link-icon">
-                    </a>
-                </li>
-                <li class="networks__item">
-                    <a href="" class="networks__link">
-                        <img src="./img/f.png" alt="facebook" class="networks__link-icon">
-                    </a>
-                </li>
-                <li class="networks__item">
-                    <a href="" class="networks__link">
-                        <img src="./img/in.png" alt="instagram" class="networks__link-icon">
-                    </a>
-                </li>
-            </ul>
-            <address class="footer-contacts">
-                <div class="footer-contacts__info">Бесплатный звонок по России</div>
-                <a href="tel:+78007003030" class="footer-contacts__phone">8 800 700 30 30</a>
-            </address>
-        </div>
-    </footer>
+                <address class="footer-contacts">
+                    <div class="footer-contacts__info">Бесплатный звонок по России</div>
+                    <a href="tel:+78007003030" class="footer-contacts__phone">8 800 700 30 30</a>
+                </address>
+            </div>
+        </footer>
+    </div>
+
 </body>
 
 </html>
