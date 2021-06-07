@@ -226,6 +226,11 @@ p {
     border: 1px solid #F5170E;
     color: #F5170E;
     padding: 18px 30px;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .news {
