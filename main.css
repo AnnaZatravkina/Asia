@@ -48,6 +48,7 @@ p {
 }
 .header__container{
     position: relative;
+    height: 100%;
 }
 .logo {
     display: block;
@@ -226,15 +227,10 @@ p {
     border: 1px solid #F5170E;
     color: #F5170E;
     padding: 18px 30px;
-    border-radius: 35px;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 .news {
-    margin-bottom: 124px;
+    margin-bottom: 145px;
 }
 
 .news__title-title {
@@ -352,7 +348,7 @@ p {
     margin-left: auto;
     margin-top: 97px;
     background: url(./img/mountains.jpg) center / cover no-repeat;
-    padding: 70px 81px;
+    padding: 70px 81px 62px;
 }
 
 .about__title {
@@ -371,10 +367,6 @@ p {
     line-height: 27px;
 }
 
-.about__button {
-    margin-bottom: -8px;
-}
-
 .footer {
     position: relative;
 }
@@ -382,11 +374,13 @@ p {
 .footer__container {
     height: 92px;
     position: relative;
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-contacts {
     position: absolute;
-    top: 42.14px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 0px;
     font-style: normal;
     text-align: right;
@@ -394,7 +388,8 @@ p {
 
 .networks {
     position: absolute;
-    top: 36px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 352px;
 }
 
@@ -413,6 +408,39 @@ p {
     text-decoration: none;
     width: 36px;
     height: 36px;
+}
+
+.networks__item--icon--telegram .networks__link {
+    background: url(./img/t.png);
+}
+
+.networks__item--icon--telegram .networks__link:hover {
+    background: url(./img/t-hover.png);
+}
+
+.networks__item--icon--vk .networks__link {
+    background: url(./img/vk.png);
+}
+
+.networks__item--icon--vk .networks__link:hover {
+    background: url(./img/vk-hover.png);
+}
+
+.networks__item--icon--facebook .networks__link {
+    background: url(./img/f.png);
+}
+
+.networks__item--icon--facebook .networks__link:hover {
+    background: url(./img/f-hover.png);
+}
+
+
+.networks__item--icon--instagram .networks__link {
+    background: url(./img/in.png);
+}
+
+.networks__item--icon--instagram .networks__link:hover {
+    background: url(./img/in-hover.png);
 }
 
 .footer-contacts__info {
