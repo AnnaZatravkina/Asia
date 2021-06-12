@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <title>Главная | AirAsia</title>
 </head>
 
@@ -15,26 +15,30 @@
         <div class="wrapper__content">
             <header class="header">
                 <div class="container header__container">
-                    <a href="#" class="logo">
-                        <img src="./img/logo.png" alt="logo company" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="" class="menu__link">Услуги</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <address class="header-contacts">
-                        <a href="tel:+78007003030" class="header-contacts__phone">8 800 700 30 30</a>
-                        <div class="header-contacts__link">График работы</div>
-                    </address>
+                    <div class="header__col">
+                        <a href="#" class="logo">
+                            <img src="./img/logo.png" alt="logo company" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__col header__col--align--right">
+                        <address class="header-contacts">
+                            <a href="tel:+78007003030" class="header-contacts__phone">8 800 700 30 30</a>
+                            <div class="header-contacts__link">График работы</div>
+                        </address>
+                    </div>
                 </div>
             </header>
             <main class="maincontent">
@@ -67,7 +71,8 @@
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
+                                <a href="#"
+                                    class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
                             </div>
                         </li>
                         <li class="offers__item">
@@ -90,7 +95,8 @@
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
+                                <a href="#"
+                                    class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
                             </div>
                         </li>
                         <li class="offers__item">
@@ -113,9 +119,9 @@
                                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
                                     систем массового участия.
                                 </p>
-                                <a href="#" class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
+                                <a href="#"
+                                    class="offers__button offers__button--active button button_type_secondary">Смотреть</a>
                             </div>
-
                         </li>
                     </ul>
                 </section>
@@ -145,7 +151,8 @@
                         <a href="#" class="paginator__prev"></a>
                         <ul class="paginator__list">
                             <li class="paginator__item paginator__item--active">
-                                <a href="#"class="paginator__link">1</a></li>
+                                <a href="#" class="paginator__link">1</a>
+                            </li>
                             <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
                             <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
                             <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
@@ -173,44 +180,47 @@
         </div>
         <footer class="footer">
             <div class="container footer__container">
-                <a href="#" class="logo">
-                    <img src="./img/logo.png" alt="logo company" class="logo__img">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Главная</a>
+                <div class="footer__col">
+                    <a href="#" class="logo">
+                        <img src="./img/logo.png" alt="logo company" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="networks">
+                        <li class="networks__item networks__item--icon--telegram">
+                            <a href="" class="networks__link"></a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Услуги</a>
+                        <li class="networks__item networks__item--icon--vk">
+                            <a href="" class="networks__link"></a>
                         </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Отзывы</a>
+                        <li class="networks__item networks__item--icon--facebook">
+                            <a href="" class="networks__link"></a>
+                        </li>
+                        <li class="networks__item networks__item--icon--instagram">
+                            <a href="" class="networks__link"></a>
                         </li>
                     </ul>
-                </nav>
-                <ul class="networks">
-                    <li class="networks__item networks__item--icon--telegram">
-                        <a href="" class="networks__link"></a>
-                    </li>
-                    <li class="networks__item networks__item--icon--vk">
-                        <a href="" class="networks__link"></a>                       
-                    </li>
-                    <li class="networks__item networks__item--icon--facebook">
-                        <a href="" class="networks__link"></a>
-                    </li>
-                    <li class="networks__item networks__item--icon--instagram">
-                        <a href="" class="networks__link"></a>
-                    </li>
-                </ul>
-                <address class="footer-contacts">
-                    <div class="footer-contacts__info">Бесплатный звонок по России</div>
-                    <a href="tel:+78007003030" class="footer-contacts__phone">8 800 700 30 30</a>
-                </address>
+                </div>
+                <div class="footer__col footer__col--align--right">
+                    <address class="footer-contacts">
+                        <div class="footer-contacts__info">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="footer-contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
             </div>
         </footer>
     </div>
-
 </body>
 
 </html>

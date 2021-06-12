@@ -1,0 +1,26 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-style: normal;
+    margin-top: 74px;
+    margin-bottom: 246px;
+}
+
+.welcome__title {
+    display: flex;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 26px;
+    max-width: 511px;
+}
+
+.welcome__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    line-height: 20px;
+    display: flex;
+}

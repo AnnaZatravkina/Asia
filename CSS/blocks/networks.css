@@ -1,0 +1,55 @@
+.networks {
+    margin-right: 74px;
+    margin-left: 220px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.networks__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.networks__item:last-child {
+    margin-right: 0px;
+}
+
+.networks__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.networks__item--icon--telegram .networks__link {
+    background: url(./img/t.png);
+}
+
+.networks__item--icon--telegram .networks__link:hover {
+    background: url(./img/t-hover.png);
+}
+
+.networks__item--icon--vk .networks__link {
+    background: url(./img/vk.png);
+}
+
+.networks__item--icon--vk .networks__link:hover {
+    background: url(./img/vk-hover.png);
+}
+
+.networks__item--icon--facebook .networks__link {
+    background: url(./img/f.png);
+}
+
+.networks__item--icon--facebook .networks__link:hover {
+    background: url(./img/f-hover.png);
+}
+
+.networks__item--icon--instagram .networks__link {
+    background: url(./img/in.png);
+}
+
+.networks__item--icon--instagram .networks__link:hover {
+    background: url(./img/in-hover.png);
+}

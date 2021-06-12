@@ -1,0 +1,25 @@
+.footer__col--align--right {
+    justify-content: flex-end;
+}
+
+.footer-contacts {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+}
+
+.footer-contacts__info {
+    font-size: 11px;
+    font-weight: normal;
+    color: #9a9a9a;
+}
+
+.footer-contacts__phone {
+    font-size: 26px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}

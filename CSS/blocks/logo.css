@@ -1,0 +1,11 @@
+.logo {
+    margin-right: 80px;
+    height: 36px;
+    width: 85px;
+   
+}
+.logo__img {
+    height: 100%;
+    width: 104%;
+    object-fit: contain;
+}
