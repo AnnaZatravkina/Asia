@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #fff;
     background: #001821;
+    margin: 0px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -35,8 +36,6 @@ p {
 img {
     display: block;
     max-width: 100%;
-    max-height: 333px;
-
 }
 
 body, html {
@@ -204,6 +203,12 @@ body, html {
     width: 460px;
 }
 
+.services__img-element {
+    width: 100%;
+    max-height: 333px;
+    object-fit: cover;
+}
+
 .services__content {
     flex: 1;
     padding: 12px 0px 18px 58px;
@@ -238,7 +243,7 @@ body, html {
 .button:hover {
     background: #F5170E;
     color: #FFFFFF;
-    border: none;
+    border:1px solid transparent;
 }
 
 .paginator {
@@ -291,11 +296,12 @@ body, html {
     font-size: 48px;
     font-weight: 700;
     font-style: normal;
-    margin-bottom: 99px;
+    margin-bottom: 60px;
 }
 
 .patners__item {
     margin-left: 46px;
+    margin-bottom: 50px;
 }
 
 .patners__item:nth-child(4n + 1) {
@@ -307,6 +313,10 @@ body, html {
     flex-wrap: wrap;
 }
 
+a.patners__link:hover {
+    filter: grayscale(1);
+}
+
 .patners__link {
     text-decoration: none;
     display: flex;
@@ -314,6 +324,7 @@ body, html {
     height: 70px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(1);
 }
 
 .footer {

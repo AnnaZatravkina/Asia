@@ -59,12 +59,13 @@
 
 .offers__features {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -28px;
 }
 
 .offers__features-item {
     padding-bottom: 20px;
-    margin-right: 28px;
+    margin-left: 28px;
 }
 
 .offers__features-item:last-child {

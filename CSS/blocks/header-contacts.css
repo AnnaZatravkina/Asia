@@ -1,7 +1,3 @@
-.header__col--align--right {
-    justify-content: flex-end;
-}
-
 .header-contacts {
     font-style: normal;
     text-align: right;
