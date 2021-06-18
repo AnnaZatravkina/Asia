@@ -14,3 +14,7 @@
     font-size: 14px;
     text-decoration: none;
 }
+
+.menu__link--active:hover {
+    color: #F5170E;
+}

@@ -3,6 +3,7 @@
     margin-left: 220px;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .networks__item {
@@ -27,7 +28,7 @@
 }
 
 .networks__item--icon--telegram .networks__link:hover {
-    background: url(./../../img/t-hover.png);
+    filter: brightness(.8);
 }
 
 .networks__item--icon--vk .networks__link {
@@ -35,7 +36,7 @@
 }
 
 .networks__item--icon--vk .networks__link:hover {
-    background: url(./../../img/vk-hover.png);
+    filter: brightness(.8);
 }
 
 .networks__item--icon--facebook .networks__link {
@@ -43,7 +44,7 @@
 }
 
 .networks__item--icon--facebook .networks__link:hover {
-    background: url(./../../img/f-hover.png);
+    filter: brightness(.8);
 }
 
 .networks__item--icon--instagram .networks__link {
@@ -51,5 +52,5 @@
 }
 
 .networks__item--icon--instagram .networks__link:hover {
-    background: url(./../../img/in-hover.png);
+    filter: brightness(.8);
 }

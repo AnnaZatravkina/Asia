@@ -1,7 +1,3 @@
-.footer__col--align--right {
-    justify-content: flex-end;
-}
-
 .footer-contacts {
     position: absolute;
     top: 50%;
