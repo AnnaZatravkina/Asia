@@ -143,12 +143,17 @@ p {
     font-weight: bold;
     margin-bottom: 51px;
     margin-right: 12px;
-    position: relative;
 }
 
-.offers__container-title:after {
-    content: url(./img/icon-fire.png);
+h2 {
+   position: relative;
+   display: inline-block; 
+}
+
+h2:after {
+    content: "";
     position: absolute;
+    background-image: url("./img/icon-fire.png");
 }
 
 .offers__item {
