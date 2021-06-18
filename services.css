@@ -314,7 +314,7 @@ body, html {
 }
 
 a.patners__link:hover {
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 .patners__link {
