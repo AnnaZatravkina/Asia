@@ -5,9 +5,14 @@
 }
 
 .paginator__display {
+    color: #fff;
     padding-right: 25px;
     font-size: 16px;
     line-height: 20px;
+}
+
+.paginator__display--color--black {
+    color: #000;
 }
 
 .paginator__list {
@@ -19,6 +24,11 @@
 .paginator__item--active .paginator__link, .paginator__link:hover {
     background: #fff;
     color: #F5170E;
+}
+
+.paginator__item--active .paginator__link, .paginator__link:hover {
+    background: #F5170E;
+    color: #fff;
 }
 
 .paginator__item {

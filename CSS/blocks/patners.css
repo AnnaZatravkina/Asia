@@ -1,0 +1,41 @@
+.patners {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    padding-top: 88px;
+    padding-bottom: 100px;
+}
+
+.patners__title {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 60px;
+}
+
+.patners__item {
+    margin-left: 46px;
+    margin-bottom: 50px;
+}
+
+.patners__item:nth-child(4n + 1) {
+    margin-left: 0px;
+}
+
+.patners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.patners__link:hover {
+    filter: grayscale(0);
+}
+
+.patners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(1);
+}

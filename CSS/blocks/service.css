@@ -1,0 +1,17 @@
+.service {
+    display: flex;
+    text-decoration: none;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.service__desc {
+    line-height: 27px;
+    margin-bottom: 35px;
+}

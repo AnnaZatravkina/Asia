@@ -1,0 +1,29 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.services__item {
+    margin-bottom: 49px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0px;
+}
+
+.services__img {
+    border-radius: 5px;
+    width: 460px;
+}
+
+.services__img-element {
+    width: 100%;
+    max-height: 333px;
+    object-fit: cover;
+}
+
+.services__content {
+    flex: 1;
+    padding: 12px 0px 18px 58px;
+}

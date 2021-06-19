@@ -1,0 +1,10 @@
+.reviews {
+    column-count: 2;
+    column-gap: 26px;
+    margin-bottom: 71px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+    border-radius: 5px;
+}

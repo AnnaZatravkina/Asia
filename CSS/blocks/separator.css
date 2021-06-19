@@ -1,0 +1,28 @@
+.separator {
+    background: url("./../../img/middleline.jpg") center center no-repeat;
+    background-size:cover;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ .separator__content {
+     display: flex;
+ }
+ 
+ .separator__title {
+     font-size: 48px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 65px;
+     display: flex;
+     padding: 116px 25px;
+ }
+ 
+ .separator__content-img {
+     display: flex;
+     width: 487px;
+     height: 341px;
+     margin-top: auto;
+ }
