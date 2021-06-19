@@ -17,15 +17,6 @@
     color: #fff;
 }
 
-.button {
-    margin-bottom: 96px;
-    margin-right: 17px;
-}
-
-.button:last-child {
-    margin-right: 0px;
-}
-
 .footer__container {
     height: 132px;
 }

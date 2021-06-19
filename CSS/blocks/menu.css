@@ -17,4 +17,5 @@
 
 .menu__link--active:hover {
     color: #F5170E;
+    transition: 1s;
 }

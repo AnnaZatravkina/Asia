@@ -28,6 +28,7 @@
 
 a.patners__link:hover {
     filter: grayscale(0);
+    transition: 1s;
 }
 
 .patners__link {

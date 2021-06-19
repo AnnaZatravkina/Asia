@@ -100,6 +100,7 @@
 .offers__button:hover {
     background: #F5170E;
     color: #fff;
+    transition: opacity 3s;
 }
 
 .offers__button {
