@@ -12,12 +12,7 @@
 }
 
 .breadcrumbs__item--active {
-    text-decoration: none;
     font-weight: 700;
-}
-
-.breadcrumbs__link {
-    text-decoration: underline;
 }
 
 .breadcrumbs__item:after {

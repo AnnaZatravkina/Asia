@@ -25,14 +25,13 @@
 }
 
 .review__user:after {
-    content: url("./img/vk-blue.png");
+    content: url("./../../img/vk-blue.png");
     height: 30px;
     margin-left: 7px;
 }
 
 .review__tags {
     display: inline-block;
-    align-items: flex-start;
 }
 
 .review__title {

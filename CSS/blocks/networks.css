@@ -23,38 +23,23 @@
     height: 36px;
 }
 
-.networks__item--icon--telegram .networks__link {
-    background: url(./../../img/css_sprites.png) -10px -66px;
+.networks__link:hover {
+    filter: contrast(.8);
+    transition: .5s;
 }
 
-.networks__item--icon--telegram .networks__link:hover {
-    filter: brightness(.8);
-    transition: .5s;
+.networks__item--icon--telegram .networks__link {
+    background: url(./../../img/css_sprites.png) -10px -66px;
 }
 
 .networks__item--icon--vk .networks__link {
     background: url(./../../img/css_sprites.png) -66px -66px;
 }
 
-.networks__item--icon--vk .networks__link:hover {
-    filter: brightness(.8);
-    transition: .5s;
-}
-
 .networks__item--icon--facebook .networks__link {
     background: url(./../../img/css_sprites.png) -10px -10px;
 }
 
-.networks__item--icon--facebook .networks__link:hover {
-    filter: brightness(.8);
-    transition: .5s;
-}
-
 .networks__item--icon--instagram .networks__link {
     background: url(./../../img/css_sprites.png) -66px -10px;
-}
-
-.networks__item--icon--instagram .networks__link:hover {
-    filter: brightness(.8);
-    transition: .5s;
 }
